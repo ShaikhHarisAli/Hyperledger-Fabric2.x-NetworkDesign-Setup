@@ -1,0 +1,10 @@
+Command Line Tool
+
+1) cryptogen command --flags <args>
+2) cryptogen help
+3) for specific command ==> cryptogen command --help
+4) cryptogen version (can be used to check the version of the crypto binary)
+5) cryptogen showtemplate (will show you the template for the cryptogen configuration file)
+6) cryptogen generate --config=./crypto-config.yaml
+6) cryptogen extend --config=<<extension config file>>
+	You can use this command to add members or organizations for adding orders for adding peers and for adding users.

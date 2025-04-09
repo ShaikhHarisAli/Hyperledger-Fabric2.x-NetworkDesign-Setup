@@ -4,7 +4,7 @@ export  FABRIC_CFG_PATH=$PWD
 echo $PWD
 
 # Enable the TLS
-export  ORDERER_GENERAL_TLS_ENABLED=true
+export  ORDERER_GENERAL_TLS_ENABLED=false
 # Setup the Private key, Certificate & Root CA Certs
 export  ORDERER_GENERAL_TLS_PRIVATEKEY=./crypto-config/ordererOrganizations/acme.com/orderers/orderer.acme.com/tls/server.key
 export  ORDERER_GENERAL_TLS_CERTIFICATE=./crypto-config/ordererOrganizations/acme.com/orderers/orderer.acme.com/tls/server.crt

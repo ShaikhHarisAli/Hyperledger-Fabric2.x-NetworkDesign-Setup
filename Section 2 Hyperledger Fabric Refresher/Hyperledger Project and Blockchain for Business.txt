@@ -1,0 +1,39 @@
+1) Hyperledger Project is an open source collaborative effort created to advance Cross-industry blockchain technologies. It is a project under the Linux Foundation.
+
+2) Hyperledger is not a single project but a collection of projects under the Hyperledger Initiative.
+
+There are two types of projects.
+
+First one is the frameworks.
+
+Hyperledger Fabric is a distributed ledger technology framework.
+
+And then there are tools.
+
+Hyperledger Composer is a tool that can accelerate the development of applications on Hyperledger fabric.
+
+
+3) Hyperledger Fabric is a (DLT) distributed ledger technology framework for building business blockchain applications.
+
+Distributed Ledger Technology for the Business
+
+There are four aspects of Hyperledger fabric distributed ledger technology that makes it suitable for implementing blockchain applications for business, 
+1) Permissioned network :
+	*) Members Identities are known
+	*) Participants have role based access
+	*) Members of the business blockchain network would always be known entities and the participants will be able to take actions based on their roles.
+	*) Hyperledger Fabric is a permissioned network in which identities are managed and roles are assigned.
+
+2) Confidential Transactions : confidentiality of the transactions.
+	*) Not All Transactions should be visible to all 
+	*) Hyperledger fabric based blockchain network allows the members to transact privately.
+	*) Members can transact privately
+	*) That means their transactions are visible only to the counterparties and are not visible to the other members on the network.
+3) No cryptocurrency : No need for cryptocurrency, for transactions 
+	*) No incentivization needed
+	*) In the case of a business blockchain network, there is no need for crypto tokens to be given out as a fee for the execution of the transactions.
+	*) Hyperledger Fabric does not have the concept of cryptocurrencies.
+
+4) Programmable : Programmability.
+	*) Smart Contracts
+	*) Business Logic Implementation

@@ -1,0 +1,15 @@
+SOLO | KAFKA | RAFT for ordering and distribution
+
+1) The order is implemented as a single binary file.
+2) It requires the genesis block for initialization and the runtime properties for the order is managed in a configuration file in Yaml format.
+3) Fabric Network needs a messaging infrastructure for the distribution of blocks. This messaging infrastructure is provided in three ways. Either it can be solo or raft, or it can be Kafka.
+Solo is built into the binary for the order, but since it's built into the order, it cannot be used in the form of a cluster.
+4) SOLO is built into the binary 
+5) Orderer Binary needs access to the genesis block (genesis block needed for orderer initialization)
+6) Run time needs access to orderer's msp and order.yaml file 
+6) the orderer writes the information about the blocks to the file system in the ledger data
+7) Orderer Binary exposes gRPC services to the peers and clients. 
+8) Logging level controlled by env variable FABRIC_LOGGING_FORMAT
+
+
+194.170.213.242 
